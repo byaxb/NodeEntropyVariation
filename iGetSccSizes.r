@@ -19,7 +19,7 @@
 #if nodes share the same importance scores
 #(as in most of the cases)
 #we will rank them randomly
-#and we will get ntimes SCC size sequences
+#and get ntimes SCC size sequences
 
 #S3
 iGetSccSizes <- function(vImpSeq, ig, decreasing = TRUE, ntimes = 50,  ...) UseMethod("iGetSccSizes")
@@ -52,7 +52,7 @@ iGetSccSizes.numeric <- function(vImpSeq, ig, decreasing = TRUE, ntimes = 50, ..
     return(orderList)
   }
   
-  #paralle
+  #parallel
   library(foreach)
   library(doParallel)
   cl <- makeCluster(detectCores())
