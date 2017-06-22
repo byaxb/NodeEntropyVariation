@@ -41,7 +41,7 @@ iCalRKs <- function(sccSizes, ig) {
 }
 
 
-load("D://desktop/inet.rda")
+load("inet.rda")
 HenCentralities <- iCalCen(Hens,c("DEall","DEin","DEout",
                                   "COall","COin","COout",
                                   "HIall","HIin","HIout",
