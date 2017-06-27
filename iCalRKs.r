@@ -41,7 +41,13 @@ iCalRKs <- function(sccSizes, ig) {
 }
 
 
+#Examples
+#load igraph objects
 load("inet.rda")
+#For the Hens
+#to calculate different centralities
+#make sure that abbreviated names are correct
+#
 HenCentralities <- iCalCen(Hens,c("DEall","DEin","DEout",
                                   "COall","COin","COout",
                                   "HIall","HIin","HIout",
