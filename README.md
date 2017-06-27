@@ -7,5 +7,4 @@ No lisence is given to use this code or any algorithms expressed in this code in
 We do not give any warranty or expression of fitness for any purpose.
 
 Please cite our work as:
-
 Ai, X.	Node Importance Ranking of Complex Networks with Entropy Variation. Entropy 2017, 19, 303.
